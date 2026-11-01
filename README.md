@@ -1,22 +1,15 @@
-# Phishing para captura de senhas de uma página clonada
+# 🎯 Objetivo do Projeto
+Desenvolvido como parte do desafio prático da trilha Formação Cybersecurity Specialist da DIO, este projeto tem como objetivo simular um cenário controlado de engenharia social (phishing por clonagem de página).
 
-### Ferramentas
+A proposta central é demonstrar a vulnerabilidade de formulários não autenticados à interceptação de dados, permitindo compreender a perspectiva do atacante para fundamentar a implementação de mecanismos defensivos e campanhas de conscientização corporativa.
 
-- Kali Linux
-- setoolkit
+Nota: Todo o conteúdo foi executado estritamente em ambiente de laboratório para fins educacionais.
 
-### Configurando o Phishing no Kali Linux
-
-- Acesso root: ``` sudo su ```
-- Iniciando o setoolkit: ``` setoolkit ```
-- Tipo de ataque: ``` Social-Engineering Attacks ```
-- Vetor de ataque: ``` Web Site Attack Vectors ```
-- Método de ataque: ```Credential Harvester Attack Method ```
-- Método de ataque: ``` Site Cloner ```
-- Obtendo o endereço da máquina: ``` ifconfig ```
-- URL para clone: https://ogg.com.br/master2/index_en.php
+🛠️ Ambiente do Laboratório
+Ambiente: Kali Linux
+Ferramenta: setoolkit
 
 ### Resutados
 
 ![Uma página de login](./images/pagina-clonada.png "Página clonada")
-![Terminal com usuario e senha destacados](./images/terminal-captura-de-senha.png, "Terminal")
+![Terminal com usuario e senha destacados](./images/terminal.png, "Terminal")
