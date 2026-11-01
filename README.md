@@ -11,8 +11,8 @@ Ferramenta: setoolkit
 
 ### Resutados
 
-![Uma página de login](./images/pagina-clonada.png "Página clonada")
+<img src="images/pagina-clonada.png" alt="Página clonada">
 Acessando a página clonada atraves do ip do kali
 
-![Terminal com usuario e senha destacados](./images/terminal.png, "Terminal")
+<img src="images/terminal.png" alt="Terminal">
 Captura de senha após tentativa de login
